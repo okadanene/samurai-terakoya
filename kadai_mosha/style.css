@@ -1,0 +1,127 @@
+.profile {
+    border:1px solid black ;
+    padding: 10px 10px 15px 10px;
+    font-weight:bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 1000px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.menu {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.mainimg {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.mainimg img {
+    width: 100%;
+}
+
+.kazuki img {
+    border-radius: 50%;
+    border: 3px solid #999;
+    object-fit: cover;
+    padding: 3px;
+}
+.kazuki {
+    padding-right: 100px;
+}
+
+header {
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+#about {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.work {
+    justify-content: center;
+}
+
+
+.content {
+    padding-top: 50px;
+}
+
+.content>p {
+    font-weight:bold;
+}
+
+footer {
+    text-align: center;
+}
+
+#works {
+    text-align: center;
+}
+
+.img {
+    padding: 1rem;
+}
+
+    /*スマートフォン用のCSS*/
+@media (max-width: 767px) {
+
+    .images {
+        display: block;
+        text-align: center;
+    }
+
+    .kazuki {
+        padding: 0;
+        text-align: center;
+    }
+
+    .content {
+        display: block;
+    }
+    
+    .about {
+        display: block;
+    }
+
+    .content > p {
+        padding: 20px;
+    }
+
+
+}
